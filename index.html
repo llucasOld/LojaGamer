@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+<body>
+
+
+    <section class="textA">
+        <h1>DESCUBRA UM NOVO <span>DOS GAMERS</span></h1>
+        <P> a mais novaloja dos gamers, e stremings</P>
+    </section>
+  
+
+            <div class="formulario">
+                <h2>verificação de idade</h2>
+                <p>coloca a sua idade jogador, sem mentir em!!</p>
+                <input type="number" name="" id="idadeInput">
+                <button onclick="verificarIdade()">verificar</button>
+            </div>
+
+    <script>
+        function verificarIdade() {
+            var idade = parseInt(document.getElementById('idadeInput').value);
+
+            if (idade >= 18) {
+                window.location.href = 'maior.html';
+
+            } else {
+                window.location.href = 'menor.html';
+            }
+        }
+    </script>
+    
+</body>
+</html>

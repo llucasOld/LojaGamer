@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+@charset "utf-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #000000;
+}
+
+body{
+    height: 500vh;
+    min-height: 100%;
+}
+
+.formulario{
+    text-align: center;
+    padding: 300px;
+    margin: 4px;
+}
+
+h2{
+    margin: 2px;
+    font-family: monospace;
+}
+
+p{
+    margin: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+    background-color: blue;
+}
+
+input{
+    background-color: bluewq;
+}
+
+.textA h1, p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px;
+    align-items: center;
+    padding: 60px ;
+}
